@@ -100,7 +100,7 @@ body{
     flex-direction: column;
 }
 .list{
-    width:80%;
+    width: 80%;
     list-style: none;
     display: block;
     color: rgb(252, 252, 252);
@@ -113,7 +113,7 @@ body{
 }
 
 .checkbox{
-    width:5%;
+    width: 5%;
     min-width: 25px;
     height: 30px;
 }
@@ -134,6 +134,9 @@ body{
 }
 .btn-con{
     width: 120px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
 }
 .edit{
     cursor: pointer;
